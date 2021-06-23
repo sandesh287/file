@@ -1,0 +1,280 @@
+h2{
+    color: yellow;
+}
+
+.class_selector{
+    color: pink;
+}
+
+#idSelector1{
+    color: black;
+}
+
+#idSelector2{
+    color: brown;
+}
+
+.color_values{
+    height: 200px;
+    width: 200px;
+    /* background:rgb(24, 53, 82); */
+    /* background: rgba(24, 53, 82, 0.5); */
+    /* background: #000; */
+    /* background: hsl(123, 10%, 30%); */
+    /* background: hsla(123, 10%, 30%, 0.7); */
+    /* background:red; */
+    background: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.box_model{
+    height: auto;
+    width: 800px;
+    background: #fff;
+}
+
+.border{
+    height: 200px;
+    width: 400px;
+    /* border-top: 5px;
+    border-bottom: 5px;
+    border-left: 5px;
+    border-right: 5px;
+    border-color: #000;
+    border-style: dashed; */
+    /* border: 5px solid #000; */
+    /* border: 5px dashed #000; */
+    border: 5px dotted #000;
+    /* border: 5px double #000; */
+    /* border: 5px groove #000; */
+    /* border: 5px ridge red; */
+    /* border: 5px inset red; */
+    /* border: 5px outset red; */
+    /* border: 5px none #000; */
+    /* border: 5px hidden #000; */
+}
+
+.margin{
+    height: 100px;
+    width: 100px;
+    background: #000;
+    /* margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px; */
+    /* margin: 20px; */
+    margin: 20px 50px;
+}
+
+.padding{
+    height: 200px;
+    width: 400px;
+    background: blue;
+    /* padding-top: 150px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 50px; */
+    padding: 150px 50px 50px 200px;
+}
+
+.max_min{
+    min-height: 50px;
+    min-width: 50px;
+    background: yellow;
+}
+
+.outline{
+    height: 400px;
+    width: 400px;
+    /* outline-width: 5px;
+    outline-style: dotted;
+    outline-color: red; */
+    background: #000;
+    outline-offset: 40px;
+    outline: 5px dotted red;
+}
+
+.css_text{
+    min-height: 400px;
+    width: 100%;
+    background: yellow;
+    margin-top: 100px;  
+    color: red;
+    /* text-align: left; */
+    /* text-align: center; */
+    /* text-align: right; */
+    text-align: justify;
+    /* text-decoration: underline; */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    text-transform: capitalize;
+    text-indent: 100px;
+    /* letter-spacing: 100px; */
+    /* line-height: 5; */
+    /* direction: rtl; */
+    direction: ltr;
+    /* writing-mode: vertical-lr; */
+    /* writing-mode: vertical-rl; */
+    writing-mode: sideways-lr;
+    word-spacing: 100px;
+    text-shadow: 5px 5px black;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.css_links{
+    min-height: 100px;
+    width: 100%;
+}
+
+
+/* .css_links a{
+    color: green;
+    text-decoration: none;
+} */
+
+.css_links a:link{
+    color: red;
+}
+.css_links a:visited{
+    color: #000;
+}
+
+
+.css_links a:active{
+    color:  yellow;
+}
+
+
+.css_links a:hover{
+    color: blue;
+}
+
+
+.css_list{
+    width: 100%;
+}
+
+.css_list ul{
+    /* list-style: circle; */
+    /* list-style-image: url(../images/bg.jpg); */
+    list-style-position: outside;
+}
+
+.css_table table{
+    border: 1px solid #000;
+    /* border-collapse: collapse; */
+    width: 100%;
+    height: 200px;
+    /* border-spacing: 20px; */
+    caption-side: bottom;
+    empty-cells: hide;
+    table-layout: auto;
+}
+
+.css_table table tr,.css_table table th, .css_table table td{
+    border: 1px solid #000;
+}
+
+.css_display{
+    /* display: inline; */
+    display: block;
+    /* display: none; */
+    /* visibility: hidden; */
+    height: 200px;
+    width: 100%;
+    background: red;
+
+}
+
+.css_display div{
+    width: 200px;
+    height: 100px;
+    background: #000;
+    margin: 0 auto;
+}
+
+.css_position{
+ height: 400px;
+ width: 100%; 
+ background: yellow;  
+ position: relative;
+}
+
+.css_position .inner_div{
+    height: 100px;
+    width: 100px;
+    background: darkcyan;
+    /* position: absolute;
+    top: 150px;
+    left: 45%; */
+    /* position: fixed; */
+    
+}
+
+.sticky{
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: green;
+}
+
+.css_overflow{
+    width: 100%;
+    height: 100px;
+    background: greenyellow;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+}
+
+.css_overflow p{
+    /* float: left; */
+    float: right;
+    /* float: none; */
+    /* clear: both; */
+}
+
+.box_sizing{
+    height: 100px;
+    width: 100px;
+    background: lawngreen;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.css_combinators>div>p{
+    color: red;
+}
+
+.css_combinators>div>p ~ a{
+    color: green;
+}
+
+.pseudo_element p::after{
+    content: " After";
+}
+
+.pseudo_element p::before{
+    content: "Before ";
+}
+
+.pseudo_element p::first-letter{
+    font-size: 32px;
+    color: red;
+}
+
+.pseudo_element p::first-line{
+    text-decoration: underline;
+}
+
+.pseudo_element p::selection{
+    background: yellow;
+}
